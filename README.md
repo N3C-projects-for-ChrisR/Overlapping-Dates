@@ -3,6 +3,9 @@ I ran into some SQL code using windowing functions that didn't work like I'd exp
 Since it was in a context that made simple test files like these awkward, I
 wrote this for a simple, self-contained, Python and Spark install on my mac.
 
+Oddly, Postgres seems to do what I would expect: https://www.postgresql.org/docs/current/tutorial-window.html 
+Moreso, my experiments in postgres.sh show that it works like Spark where the aggregations are applied to a sliding window and you get a rolling sum or average affect.
+
 Chris Roeder, June 2023
 
 

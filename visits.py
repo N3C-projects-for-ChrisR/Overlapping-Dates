@@ -33,7 +33,8 @@ sql='''
            sum(id) over (partition by  id order by start_date) as sum_id,
            max(id) over (partition by  id order by start_date) as max_id,
            sum(sub_id) over (partition by  id order by start_date) as sum_sub_id,
-           max(sub_id) over (partition by  id order by start_date) as max_sub_id
+           max(sub_id) over (partition by  id order by start_date) as max_sub_id,
+           avg(sub_id) over (partition by  id order by start_date) as max_sub_id
     FROM visits
 '''
 print(sql)

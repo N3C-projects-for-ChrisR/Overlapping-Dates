@@ -11,12 +11,15 @@
 #python3 visits_3.py
 #python3 visits_3a.py
 
-
 #echo "---- 3b --------------"
 #rm -rf  spark-warehouse/learn_spark_db.db/visits
 #python3 visits_3b.py
 
+#echo "---- 4 update in SQL - NEGATIVE --------------"
+#rm -rf  spark-warehouse/learn_spark_db.db/visits
+#python3 update_4.py
 
-echo "---- 4 update --------------"
+
+echo "---- 5 update in Python --------------"
 rm -rf  spark-warehouse/learn_spark_db.db/visits
-python3 update_4.py
+python3 update_5.py

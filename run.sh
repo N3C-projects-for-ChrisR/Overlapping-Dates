@@ -12,6 +12,11 @@
 #python3 visits_3a.py
 
 
-echo "---- 3b --------------"
+#echo "---- 3b --------------"
+#rm -rf  spark-warehouse/learn_spark_db.db/visits
+#python3 visits_3b.py
+
+
+echo "---- 4 update --------------"
 rm -rf  spark-warehouse/learn_spark_db.db/visits
-python3 visits_3b.py
+python3 update_4.py
